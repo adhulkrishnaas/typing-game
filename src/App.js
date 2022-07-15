@@ -1,5 +1,5 @@
 import "./App.css";
-import { useState, useEffect, useRef } from "react";
+import { useState } from "react";
 
 let interval = null;
 
@@ -30,7 +30,6 @@ function App() {
     } else {
       setBestScore(duration);
     }
-
     clearInterval(interval);
     SetCount(0);
     setDuration(0);
