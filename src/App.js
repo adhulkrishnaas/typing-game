@@ -27,6 +27,8 @@ function App() {
     const storedScore = localStorage.getItem("duration");
     if (storedScore > duration) {
       setBestScore(duration);
+    } else {
+      setBestScore(duration);
     }
 
     clearInterval(interval);
