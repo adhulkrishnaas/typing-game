@@ -4,7 +4,7 @@
   justify-content: center;
   height: 100vh;
   width: 100%;
-  background-color: #051b34;
+  background-color: #fff;
   color: #fff;
   
 }
@@ -13,8 +13,9 @@
   display: flex;
   flex-direction: column;
   width: 300px;
-  border: 1px solid black;
+ 
   border-radius: 10px;
+  background-color:#000033;
   padding: 15px;
   
 
@@ -32,6 +33,9 @@
   height: 100px;
   margin-bottom: 1.5rem;
   margin-top: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
  
 }
 
@@ -45,20 +49,27 @@
 
 button{
   width: 50%;
-  background-color: #c7c2cc;
+  background-color: #00004d;
   border-radius: 5px;
   font-weight: 100px;
-  color: black;
+  color: #fff;
   border: 1px solid gray;
   padding: 10px;
   font-weight: 700  ;
 }
 button:hover{
-  background-color: orange;
+  background-color: #fff;
+  color: #00004d;
   transform: 0.5s ease;
 }
 
 p{
   text-justify: auto;
+  
+}
+h1{
+  font-weight: 900;
+  font-size: 3rem;
+  font-family: 'Times New Roman', Times, serif;
   
 }
